@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		04AA39D82BCEEDFC00263B89 /* NutriTrackApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA39D72BCEEDFC00263B89 /* NutriTrackApp.swift */; };
-		04AA39DA2BCEEDFC00263B89 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA39D92BCEEDFC00263B89 /* ContentView.swift */; };
 		04AA39DC2BCEEDFC00263B89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AA39DB2BCEEDFC00263B89 /* Assets.xcassets */; };
 		04AA39DF2BCEEDFC00263B89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04AA39DE2BCEEDFC00263B89 /* Preview Assets.xcassets */; };
+		04AA39E62BCEF9A200263B89 /* APITestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA39E52BCEF9A200263B89 /* APITestView.swift */; };
+		04AA39E82BCEFA4A00263B89 /* Nutrition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04AA39E72BCEFA4A00263B89 /* Nutrition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04AA39D42BCEEDFC00263B89 /* NutriTrack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NutriTrack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04AA39D72BCEEDFC00263B89 /* NutriTrackApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutriTrackApp.swift; sourceTree = "<group>"; };
-		04AA39D92BCEEDFC00263B89 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		04AA39DB2BCEEDFC00263B89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04AA39DE2BCEEDFC00263B89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04AA39E52BCEF9A200263B89 /* APITestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITestView.swift; sourceTree = "<group>"; };
+		04AA39E72BCEFA4A00263B89 /* Nutrition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nutrition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				04AA39D72BCEEDFC00263B89 /* NutriTrackApp.swift */,
-				04AA39D92BCEEDFC00263B89 /* ContentView.swift */,
+				04AA39E52BCEF9A200263B89 /* APITestView.swift */,
+				04AA39E92BCEFA5700263B89 /* Models */,
 				04AA39DB2BCEEDFC00263B89 /* Assets.xcassets */,
 				04AA39DD2BCEEDFC00263B89 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				04AA39DE2BCEEDFC00263B89 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		04AA39E92BCEFA5700263B89 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04AA39E72BCEFA4A00263B89 /* Nutrition.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +148,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04AA39DA2BCEEDFC00263B89 /* ContentView.swift in Sources */,
 				04AA39D82BCEEDFC00263B89 /* NutriTrackApp.swift in Sources */,
+				04AA39E82BCEFA4A00263B89 /* Nutrition.swift in Sources */,
+				04AA39E62BCEF9A200263B89 /* APITestView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

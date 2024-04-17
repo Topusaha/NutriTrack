@@ -11,7 +11,8 @@ import SwiftUI
 struct NutriTrackApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            APITestView()
+            
         }
     }
 }
