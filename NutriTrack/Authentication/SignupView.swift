@@ -5,6 +5,7 @@
 //  Created by Nathan Albe on 4/25/24.
 //
 
+import HealthKit
 import SwiftUI
 
 struct SignupView: View {

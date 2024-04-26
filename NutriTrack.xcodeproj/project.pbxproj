@@ -11,11 +11,16 @@
 		01C500A62BD6DD6800AE789D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C500A52BD6DD6800AE789D /* ContentView.swift */; };
 		01C500A82BD6DD6900AE789D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C500A72BD6DD6900AE789D /* Assets.xcassets */; };
 		01C500AB2BD6DD6900AE789D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01C500AA2BD6DD6900AE789D /* Preview Assets.xcassets */; };
-		01C500B22BD6DDA700AE789D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C500B12BD6DDA700AE789D /* HomeView.swift */; };
-		01C500B42BD6DE3000AE789D /* WorkoutListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C500B32BD6DE3000AE789D /* WorkoutListView.swift */; };
-		01C500B62BD6DE7600AE789D /* WorkoutCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C500B52BD6DE7600AE789D /* WorkoutCardView.swift */; };
 		01C500B92BDB1EAB00AE789D /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C500B82BDB1EAB00AE789D /* LoginView.swift */; };
 		01C500BB2BDB2DEC00AE789D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C500BA2BDB2DEC00AE789D /* SignupView.swift */; };
+		01C500C52BDC3F0800AE789D /* HeartRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C500C42BDC3F0800AE789D /* HeartRateView.swift */; };
+		01C500C72BDC3FB700AE789D /* HeadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C500C62BDC3FB700AE789D /* HeadingView.swift */; };
+		01C500CB2BDC585000AE789D /* CalorieCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C500CA2BDC585000AE789D /* CalorieCircleView.swift */; };
+		01C500CD2BDC587000AE789D /* SleepCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01C500CC2BDC587000AE789D /* SleepCircleView.swift */; };
+		01D6AEA82BDC666600915033 /* StepsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6AEA72BDC666600915033 /* StepsView.swift */; };
+		01D6AEAA2BDC6C0600915033 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6AEA92BDC6C0600915033 /* Tab.swift */; };
+		01D6AEAF2BDC750700915033 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6AEAE2BDC750700915033 /* HomeView.swift */; };
+		01D6AEB12BDC755300915033 /* HealthOverview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01D6AEB02BDC755300915033 /* HealthOverview.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,11 +29,17 @@
 		01C500A52BD6DD6800AE789D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01C500A72BD6DD6900AE789D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01C500AA2BD6DD6900AE789D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		01C500B12BD6DDA700AE789D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		01C500B32BD6DE3000AE789D /* WorkoutListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutListView.swift; sourceTree = "<group>"; };
-		01C500B52BD6DE7600AE789D /* WorkoutCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCardView.swift; sourceTree = "<group>"; };
 		01C500B82BDB1EAB00AE789D /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		01C500BA2BDB2DEC00AE789D /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		01C500BE2BDC22A000AE789D /* NutriTrack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NutriTrack.entitlements; sourceTree = "<group>"; };
+		01C500C42BDC3F0800AE789D /* HeartRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateView.swift; sourceTree = "<group>"; };
+		01C500C62BDC3FB700AE789D /* HeadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadingView.swift; sourceTree = "<group>"; };
+		01C500CA2BDC585000AE789D /* CalorieCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieCircleView.swift; sourceTree = "<group>"; };
+		01C500CC2BDC587000AE789D /* SleepCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepCircleView.swift; sourceTree = "<group>"; };
+		01D6AEA72BDC666600915033 /* StepsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepsView.swift; sourceTree = "<group>"; };
+		01D6AEA92BDC6C0600915033 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		01D6AEAE2BDC750700915033 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		01D6AEB02BDC755300915033 /* HealthOverview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthOverview.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,13 +73,14 @@
 			isa = PBXGroup;
 			children = (
 				01C500A32BD6DD6800AE789D /* NutriTrackApp.swift */,
-				01C500B72BDB1E9B00AE789D /* Authentication */,
+				01C500BE2BDC22A000AE789D /* NutriTrack.entitlements */,
 				01C500A52BD6DD6800AE789D /* ContentView.swift */,
-				01C500B12BD6DDA700AE789D /* HomeView.swift */,
-				01C500B32BD6DE3000AE789D /* WorkoutListView.swift */,
-				01C500B52BD6DE7600AE789D /* WorkoutCardView.swift */,
+				01C500B72BDB1E9B00AE789D /* Authentication */,
+				01D6AEAB2BDC6D6700915033 /* Views */,
+				01C500C32BDC3EEC00AE789D /* Health Tabs */,
 				01C500A72BD6DD6900AE789D /* Assets.xcassets */,
 				01C500A92BD6DD6900AE789D /* Preview Content */,
+				01D6AEA92BDC6C0600915033 /* Tab.swift */,
 			);
 			path = NutriTrack;
 			sourceTree = "<group>";
@@ -88,6 +100,27 @@
 				01C500BA2BDB2DEC00AE789D /* SignupView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		01C500C32BDC3EEC00AE789D /* Health Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				01C500C62BDC3FB700AE789D /* HeadingView.swift */,
+				01C500C42BDC3F0800AE789D /* HeartRateView.swift */,
+				01C500CA2BDC585000AE789D /* CalorieCircleView.swift */,
+				01C500CC2BDC587000AE789D /* SleepCircleView.swift */,
+				01D6AEA72BDC666600915033 /* StepsView.swift */,
+			);
+			path = "Health Tabs";
+			sourceTree = "<group>";
+		};
+		01D6AEAB2BDC6D6700915033 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				01D6AEAE2BDC750700915033 /* HomeView.swift */,
+				01D6AEB02BDC755300915033 /* HealthOverview.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,12 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01C500CD2BDC587000AE789D /* SleepCircleView.swift in Sources */,
+				01C500CB2BDC585000AE789D /* CalorieCircleView.swift in Sources */,
 				01C500BB2BDB2DEC00AE789D /* SignupView.swift in Sources */,
+				01D6AEAA2BDC6C0600915033 /* Tab.swift in Sources */,
+				01D6AEB12BDC755300915033 /* HealthOverview.swift in Sources */,
 				01C500B92BDB1EAB00AE789D /* LoginView.swift in Sources */,
-				01C500B22BD6DDA700AE789D /* HomeView.swift in Sources */,
 				01C500A62BD6DD6800AE789D /* ContentView.swift in Sources */,
-				01C500B62BD6DE7600AE789D /* WorkoutCardView.swift in Sources */,
-				01C500B42BD6DE3000AE789D /* WorkoutListView.swift in Sources */,
+				01C500C72BDC3FB700AE789D /* HeadingView.swift in Sources */,
+				01D6AEA82BDC666600915033 /* StepsView.swift in Sources */,
+				01D6AEAF2BDC750700915033 /* HomeView.swift in Sources */,
+				01C500C52BDC3F0800AE789D /* HeartRateView.swift in Sources */,
 				01C500A42BD6DD6800AE789D /* NutriTrackApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,17 +335,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NutriTrack/NutriTrack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NutriTrack/Preview Content\"";
 				DEVELOPMENT_TEAM = P3G2F6S93C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "To Display your Health";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To Display your Health";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To Display your Health";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -326,17 +369,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NutriTrack/NutriTrack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"NutriTrack/Preview Content\"";
 				DEVELOPMENT_TEAM = P3G2F6S93C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "To Display your Health";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "To Display your Health";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "To Display your Health";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
