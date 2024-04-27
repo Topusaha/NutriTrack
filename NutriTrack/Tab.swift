@@ -19,7 +19,7 @@ struct Tab: View {
                         CustomTabItem(systemImage: "figure.run", isSelected: selection == 0)
                     }
                     .tag(0)
-                FoodView()
+                FoodOverview()
                     .tabItem {
                         CustomTabItem(systemImage: "fork.knife", isSelected: selection == 1)
                     }
