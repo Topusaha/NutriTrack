@@ -24,33 +24,35 @@ struct HealthOverview: View {
     let heartRateQuantity = HKUnit(from: "count/min")
     
     var body: some View {
-        ScrollView {
-            VStack {
-                HeadingView(name: "Fugazi")
-                HStack {
-                    Spacer()
-                    VStack {
-                        CalorieCircleView(value: activeEnergyBurned, goalValue: 1000)
-                        Spacer().frame(height: 15)
-                        SleepCircleView(value: sleepAnalysis, goalValue: 8.0)
+        ZStack {
+            Color(.black).ignoresSafeArea(.all)
+            ScrollView {
+                VStack {
+                    HeadingView(name: "Fugazi")
+                    HStack {
+                        Spacer()
+                        VStack {
+                            CalorieCircleView(value: activeEnergyBurned, goalValue: 1000)
+                            Spacer().frame(height: 15)
+                            SleepCircleView(value: sleepAnalysis, goalValue: 8.0)
+                        }
+                        Spacer()
+                        VStack {
+                            StepsView(value: stepCount)
+                            HeartRateView(value: "\(Int(heartRate))")
+                        }
                     }
                     Spacer()
-                    VStack {
-                        StepsView(value: stepCount)
-                        HeartRateView(value: "\(Int(heartRate))")
-                    }
+                    
                 }
-                Spacer()
-                
-            }
-            .onAppear(perform: start)
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            .background {
-                Color.black
-                    .ignoresSafeArea()
+                .onAppear(perform: start)
+                .frame(maxWidth: .infinity, maxHeight: .infinity)
+                .background {
+                    Color.black
+                        .ignoresSafeArea()
+                }
             }
         }
-        
         /*VStack {
             HealthDataView(title: "Steps", value: "\(Int(stepCount))")
             HealthDataView(title: "Calories Burned", value: "\(Int(activeEnergyBurned))")

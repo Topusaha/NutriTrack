@@ -99,6 +99,7 @@
 				01C500A72BD6DD6900AE789D /* Assets.xcassets */,
 				01C500A92BD6DD6900AE789D /* Preview Content */,
 				01D6AEA92BDC6C0600915033 /* Tab.swift */,
+				01D6AEC52BDC966B00915033 /* Food Manager */,
 				01D6AEBA2BDC8AD000915033 /* GoogleService-Info.plist */,
 			);
 			path = NutriTrack;
@@ -144,6 +145,13 @@
 				01D6AEB62BDC779000915033 /* ProfileView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		01D6AEC52BDC966B00915033 /* Food Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Food Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
