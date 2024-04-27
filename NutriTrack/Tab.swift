@@ -19,17 +19,17 @@ struct Tab: View {
                         CustomTabItem(systemImage: "figure.run", isSelected: selection == 0)
                     }
                     .tag(0)
-                Text("Activity Screen")
+                FoodView()
                     .tabItem {
                         CustomTabItem(systemImage: "fork.knife", isSelected: selection == 1)
                     }
                     .tag(1)
-                Text("Food Screen")
+                WaterView()
                     .tabItem {
                         CustomTabItem(systemImage: "drop.fill", isSelected: selection == 2)
                     }
                     .tag(2)
-                Text("Settings Screen")
+                ProfileView()
                     .tabItem {
                         CustomTabItem(systemImage: "person.circle.fill", isSelected: selection == 3)
                     }

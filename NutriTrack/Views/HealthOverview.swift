@@ -11,7 +11,7 @@ import HealthKit
 struct HealthOverview: View {
     @State private var stepCount: Double = 0
     @State private var activeEnergyBurned: Double = 0
-    @State private var sleepAnalysis: String = "Unknown"
+    @State private var sleepAnalysis: Double = 0
     @State private var heartRate: Int = 0
     
     @State var measuring = false
@@ -24,6 +24,7 @@ struct HealthOverview: View {
     let heartRateQuantity = HKUnit(from: "count/min")
     
     var body: some View {
+        ScrollView {
             VStack {
                 HeadingView(name: "Fugazi")
                 HStack {
@@ -31,7 +32,7 @@ struct HealthOverview: View {
                     VStack {
                         CalorieCircleView(value: activeEnergyBurned, goalValue: 1000)
                         Spacer().frame(height: 15)
-                        SleepCircleView(value: 5.0, goalValue: 8.0)
+                        SleepCircleView(value: sleepAnalysis, goalValue: 8.0)
                     }
                     Spacer()
                     VStack {
@@ -40,14 +41,16 @@ struct HealthOverview: View {
                     }
                 }
                 Spacer()
-            
-        }
-        .onAppear(perform: start)
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                
+            }
+            .onAppear(perform: start)
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background {
                 Color.black
                     .ignoresSafeArea()
             }
+        }
+        
         /*VStack {
             HealthDataView(title: "Steps", value: "\(Int(stepCount))")
             HealthDataView(title: "Calories Burned", value: "\(Int(activeEnergyBurned))")
@@ -143,7 +146,7 @@ struct HealthOverview: View {
             }
             
             let hours = totalSleepDuration / 3600 // Convert seconds to hours
-            self.sleepAnalysis = String(format: "%.1f hours", hours)
+            self.sleepAnalysis = hours
         }
         
         healthStore.execute(query)

@@ -42,7 +42,7 @@ struct SleepCircleView: View {
                             .opacity(0.3)
                             .foregroundColor(.gray)
                         Circle()
-                            .trim(from: 0.0, to: CGFloat(min(value / goalValue, 1.0)))
+                            .trim(from: 0.0, to: CGFloat(min((value) / goalValue, 1.0)))
                             .stroke(style: StrokeStyle(lineWidth: 10, lineCap: .round, lineJoin: .round))
                             .foregroundColor(.white)
                             .rotationEffect(Angle(degrees: 270))
