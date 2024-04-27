@@ -21,7 +21,7 @@ struct APITestView: View {
     }
     
     private func callAPI() async {
-        let query = "1lb brisket and fries".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
+        let query = "3 eggs and a banana".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
         let url = URL(string: "https://api.api-ninjas.com/v1/nutrition?query="+query!)!
         var request = URLRequest(url: url)
         request.setValue("CoGoxCyj4fSBJiUQFo/OjA==YPeYhNjRKFXrSSHQ", forHTTPHeaderField: "X-Api-Key")
