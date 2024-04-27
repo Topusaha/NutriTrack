@@ -31,19 +31,19 @@ NutriTrack is a user-friendly fitness and nutrition app designed to help users m
 
 **Required Must-have Stories**
 
-- [ ] Authentication
-- [ ] HealthKit integration
-    - [ ] Calories tracker
-    - [ ] Workout Info
-    - [ ] Heartrate
+- [x] Authentication
+- [x] HealthKit integration
+    - [x] Calories tracker
+    - [x] Workout Info
+    - [x] Heartrate
 - [ ] Input foods and nutritional facts provided
 - [ ] User recommended calorie, water, and protein intake
 
 **Optional Nice-to-have Stories**
 
 - [ ] Daily Info is retrievable
-- [ ] Steps
-- [ ] Sleep
+- [x] Steps
+- [x] Sleep
 - [ ] Calendar View
 - [ ] Habit Tracker
 - [ ] Identify foods using Computer Vision
@@ -58,7 +58,7 @@ NutriTrack is a user-friendly fitness and nutrition app designed to help users m
     * User can login
 - [x] Registration Screen
     * User can create a new account
-- [ ] Stream
+- [x] Stream
     * Overview(Calorie tracker, Workout Info, Heartrate)
         * Raw Information
         * Breakdown info
@@ -74,7 +74,7 @@ NutriTrack is a user-friendly fitness and nutrition app designed to help users m
 **Tab Navigation** (Tab to Screen)
 
 
-- [ ] First Tab Overview 
+- [x] First Tab Overview 
 - [ ] Second Tab Water Intake
 - [ ] Third Tab Nutrients Intake
 
