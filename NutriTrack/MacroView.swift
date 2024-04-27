@@ -15,7 +15,7 @@ struct MacroView: View {
     var unit: String = "kCal"
     
     var protein: Double = 20
-    var fats: Double = 50
+    var fats: Double = 23
     var carbs: Double = 75
     
     
@@ -74,12 +74,12 @@ struct MacroView: View {
                 
                 // Macro View
                 HStack {
-                    ProgressView("P - \(Int(protein))", value: protein, total: 100)
+                    ProgressView("P - \(Int(protein)) g", value: protein, total: 120)
                         .padding()
                         .tint(.white)
-                    ProgressView("C - \(Int(carbs))", value: carbs, total: 100)
+                    ProgressView("C - \(Int(carbs)) g", value: carbs, total: 325)
                         .tint(.white)
-                    ProgressView("F - \(Int(fats))", value: fats, total: 100)
+                    ProgressView("F - \(Int(fats)) g", value: fats, total: 67)
                         .tint(.white)
                     
                 }
@@ -91,5 +91,5 @@ struct MacroView: View {
 }
 
 #Preview {
-    MacroView(value: 200.0, goalValue: 2000.0)
+    MacroView(value: 800.0, goalValue: 2000.0)
 }
